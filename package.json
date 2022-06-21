@@ -1,8 +1,12 @@
 {
-  "name": "zaadev-nulis",
-  "version": "0.0.0",
+  "name": "nulis-online",
+  "version": "1.0.0",
+  "description": "Nulis Online by ZaaDev",
+  "main": "./bin/www",
   "scripts": {
-    "start": "nodemon ./bin/www"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./bin/www",
+    "zaa": "nodemon ./bin/www",
   },
   "author": "ZaaDev",
   "dependencies": {
